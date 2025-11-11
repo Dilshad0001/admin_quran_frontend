@@ -15,7 +15,7 @@ const QuranAdminLogin = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/Dashboard")
+    navigate("/surah")
     setError('');
     setIsLoading(true);
 
@@ -34,7 +34,7 @@ const QuranAdminLogin = ({ onLogin }) => {
     setTimeout(() => {
       if (email === 'admin@quran.com' && password === 'admin123') {
         toast.success('Login successful');
-        navigate('/Dashboard');
+        navigate('/surah');
       } else {
         setError('Invalid email or password. Please try again.');
       }
@@ -148,14 +148,6 @@ const QuranAdminLogin = ({ onLogin }) => {
                     Remember me
                   </label>
                 </div>
-                <button
-                  type="button"
-                  className="text-sm font-medium text-emerald-600 hover:text-emerald-700"
-                  disabled={isLoading}
-                  onClick={() => alert('Password reset functionality would be implemented here')}
-                >
-                  Forgot password?
-                </button>
               </div>
 
               {/* Submit Button */}
@@ -174,30 +166,7 @@ const QuranAdminLogin = ({ onLogin }) => {
                 )}
               </button>
             </form>
-
-            {/* PWA Install Button */}
-          
-
           </div>
-
-          {/* Footer */}
-          <div className="px-8 py-6 bg-gray-50 border-t border-gray-200 text-center">
-            <p className="text-sm text-gray-600">
-              Need help? <button 
-                onClick={() => alert('Contact support at: support@quran.com')}
-                className="text-emerald-600 hover:text-emerald-700 font-medium"
-              >
-                Contact Support
-              </button>
-            </p>
-          </div>
-        </div>
-
-        {/* Copyright */}
-        <div className="text-center mt-6">
-          <p className="text-sm text-gray-600">
-            © 2025 Quran Management System. All rights reserved.
-          </p>
         </div>
       </div>
     </div>
