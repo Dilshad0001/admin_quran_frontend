@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "admin123",
+    "email": "admin@quran.com"
+  },
+  "surahs": [
+    {
+      "surah_number": 1,
+      "name_arabic": "الفاتحة",
+      "name_mala": "അൽ-ഫാതിഹ",
+      "name_eng": "Al-Fatihah",
+      "ayahs": [
+        {
+          "ayah_number": 1,
+          "ayah_text": "بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ",
+          "meaning_text": "In the name of Allah, the Most Gracious, the Most Merciful",
+          "word_meaning": "Bism: In the name; Allah: God; Ar-Rahman: Most Gracious; Ar-Raheem: Most Merciful",
+          "fraction_ayah": [
+            {
+              "ayah_fraction_number": 1,
+              "ayah_fraction_text": "بِسْمِ اللّهِ",
+              "ayah_fraction_meaning": "In the name of Allah",
+              "fraction_tafseer": "This phrase emphasizes the invocation of Allah's name before starting any act."
+            },
+            {
+              "ayah_fraction_number": 2,
+              "ayah_fraction_text": "الرَّحْمـَنِ الرَّحِيمِ",
+              "ayah_fraction_meaning": "The Most Gracious, the Most Merciful",
+              "fraction_tafseer": "Describes Allah’s attributes of mercy and compassion."
+            }
+          ]
+        },
+        {
+          "ayah_number": 2,
+          "ayah_text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+          "meaning_text": "All praise is due to Allah, Lord of the worlds",
+          "word_meaning": "Alhamd: All praise; Rabb: Lord; Al-Alameen: the worlds",
+          "fraction_ayah": []
+        }
+      ]
+    },
+    {
+      "surah_number": 2,
+      "name_arabic": "البقرة",
+      "name_mala": "അല്-ബകര",
+      "name_eng": "Al-Baqarah",
+      "ayahs": [
+        {
+          "ayah_number": 1,
+          "ayah_text": "الم",
+          "meaning_text": "Alif Lam Meem",
+          "word_meaning": "",
+          "fraction_ayah": []
+        }
+      ]
+
+    }
+  ]
+}
